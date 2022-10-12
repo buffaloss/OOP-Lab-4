@@ -1,6 +1,6 @@
 //the classroom will have a width, length and number of seats for students
 
-public class Classroom extends Floor{ 
+public class Classroom extends Room{ 
     private int width;
     private int length;
     private int seats; // capacity or number of seats for students
@@ -30,4 +30,12 @@ public class Classroom extends Floor{
         this.seats = seats;
     }
 
+    public void isFree() {
+        System.out.println("This room is currently free. ");
+    }
+
+    public void isOccupied() {
+        System.out.println("This room is currently occupied. ");
+
+    }
 }

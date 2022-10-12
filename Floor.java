@@ -1,6 +1,6 @@
 //each floor will have a level, exampl floor 1 will have floorLevel 1 etc
 //width,length and capacity, which represents number of classrooms it will contain
-public class Floor extends School{
+/*public class Floor extends School{
     protected int floorLevel;
     protected int floorWidth;
     protected int floorLength;
@@ -39,3 +39,4 @@ public class Floor extends School{
         this.floorCapacity = floorCapacity;
     }
 }
+*/

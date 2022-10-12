@@ -1,6 +1,9 @@
 //the canteen will have a widtg, length and number of seats which students can use
                        //to dine inside it
-public class Canteen extends Floor{ 
+                       
+               //a room can be free/empty or it can be occupied
+         
+public class Canteen extends Room{ 
     private int width;
     private int length;
     private int seats;
@@ -29,4 +32,12 @@ public class Canteen extends Floor{
         this.seats = seats;
     }
 
+    public void isFree() {
+        System.out.println("This room is currently free. ");
+    }
+
+    public void isOccupied() {
+        System.out.println("This room is currently occupied. ");
+
+    }
 }

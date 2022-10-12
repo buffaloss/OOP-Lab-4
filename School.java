@@ -3,8 +3,28 @@ public class School extends Entity {
     private String name;
     private int surface; // in square meters
     private int annualFunds;
+    
+    //nested class inside another class;
+    static class Location {
+        private String city;
+        private String address;
 
-
+        public String getCity() {
+            return this.city;
+        }
+    
+        public void setCity(String city) {
+            this.city = city;
+        }
+    
+        public String getAddress() {
+            return this.address;
+        }
+    
+        public void setAddress(String adress) {
+            this.address = adress;
+        }
+    }
     public String exist() {
         String existence = "Exists";
         return existence;

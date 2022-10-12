@@ -1,5 +1,5 @@
 //Sports hall will have width,length and capacity
-public class SportsHall extends Floor{
+public class SportsHall extends  Room{
     private int width;
     private int length;
     private int capacity; // capacity will represent the maximum number of students that can do sports activites inside
@@ -28,4 +28,12 @@ public class SportsHall extends Floor{
         this.capacity = capacity;
     }
 
+    public void isFree() {
+        System.out.println("This room is currently free. ");
+    }
+
+    public void isOccupied() {
+        System.out.println("This room is currently occupied. ");
+
+    }
 }
